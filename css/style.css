@@ -568,6 +568,7 @@ header {
 /* *buttons==================================== */
 .filter-btn {
   display: inline-block;
+
   color: var(--txt-c-grey);
   background-color: var(--bgc-dark);
   border: none;
@@ -579,8 +580,6 @@ header {
 
   padding: 6px 22px;
 
-  /* padding-left: 22px;
-  padding-right: 22px; */
   border-radius: 4px;
 }
 
@@ -622,8 +621,11 @@ header {
   margin-left: var(--card-set-gap);
 }
 
-.projects .item:hover,
-.projects .item:focus {
+.projects-link {
+  display: block;
+}
+.projects-link:hover,
+.projects-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
